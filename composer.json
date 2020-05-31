@@ -1,0 +1,21 @@
+{
+    "name": "cap/tasks",
+    "authors": [
+        {
+            "name": "Serg Resh",
+            "email": "asder2015@ya.ru"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "util\\": "util",
+            "workers\\": "workers",
+            "Flagmer\\Billing\\": "src/Flagmer/Billing",
+            "Flagmer\\Integrations\\": "src/Flagmer/Integrations"
+        },
+        "files": [
+            "config/config.php"
+        ]
+    }
+}
