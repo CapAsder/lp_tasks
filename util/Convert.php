@@ -1,6 +1,9 @@
 <?php
 namespace util;
 
+/**
+ * Утилита конвертации данных
+*/
 class Convert {
 
     public static function object_to_array($object){

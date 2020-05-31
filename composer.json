@@ -2,7 +2,7 @@
     "name": "cap/tasks",
     "authors": [
         {
-            "name": "Serg Resh",
+            "name": "Sergey Reshetnikov",
             "email": "asder2015@ya.ru"
         }
     ],
@@ -13,9 +13,6 @@
             "workers\\": "workers",
             "Flagmer\\Billing\\": "src/Flagmer/Billing",
             "Flagmer\\Integrations\\": "src/Flagmer/Integrations"
-        },
-        "files": [
-            "config/config.php"
-        ]
+        }
     }
 }
